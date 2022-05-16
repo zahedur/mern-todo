@@ -24,7 +24,7 @@ const Layout = () => {
                 <header>
                     <Navbar bg="light" expand="lg">
                         <Container>
-                            <Navbar.Brand className="fs-4"><Link to="/" className="text-black text-decoration-none">Todo</Link></Navbar.Brand>
+                            <Navbar.Brand className="fs-4"><Link to="/" className="text-black text-decoration-none fw-bold">Todo</Link></Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav ">
                                 <Nav className="me-auto">

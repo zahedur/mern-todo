@@ -136,7 +136,7 @@ const Todo = () => {
         <>
             <div className="mt-4">
                 <div className="d-flex justify-content-between align-items-center">
-                    <h3>All Todos</h3>
+                    <h5>All Todos</h5>
 
                     <button className="btn btn-primary btn-sm" onClick={() => addEdit('add')}>Add New</button>
                 </div>

@@ -51,15 +51,18 @@ mongoose.connect(URI, OPTION, error => {
 })
 
 
-//Tagging frontend
-// app.use(express.static('client/build'));
-// app.use('*', (req, res) => {
-//     req.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-// });
-
-
 // Routing Implement
 app.use('/api/v1', router);
+
+
+//Tagging frontend
+app.use(express.static('client/build'));
+app.use('*', (req, res) => {
+    req.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+});
+
+
+
 
 
 // Undefined Route Implement
