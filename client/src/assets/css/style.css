@@ -1,0 +1,31 @@
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.text-primary-200 {
+    color: #5b91e1;
+}
+
+.authentication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.auth {
+    width: 400px;
+}
+
+.auth-form {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 20px -15px #000;
+    border-radius: 8px;
+}
+
+.user-name > a,
+.user-name > a:hover,
+.user-name > a:focus{
+    color: #282C34;
+}
